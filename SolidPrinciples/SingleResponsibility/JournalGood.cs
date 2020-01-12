@@ -50,7 +50,7 @@ namespace DesignPatterns.SolidPrinciples.SingleResponsibility
     }
     public class DemoGood
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             var j = new JournalGood();
             j.AddEntry("I cried today.");

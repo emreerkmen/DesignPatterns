@@ -57,7 +57,7 @@ namespace DesignPatterns.SolidPrinciples.LiskowSubstitution
     {
         static public int Area(RectangleGood r) => r.Width * r.Height;
 
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             RectangleGood rc = new RectangleGood(2, 3);
             Console.WriteLine($"{rc} has area {Area(rc)}");

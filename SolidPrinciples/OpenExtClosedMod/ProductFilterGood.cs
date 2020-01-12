@@ -99,7 +99,7 @@ namespace DesignPatterns.SolidPrinciples.OpenExtClosedMod
 
     public class DemoGood
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             var apple = new ProductBad("Apple", Color.Green, Size.Small);
             var tree = new ProductBad("Tree", Color.Green, Size.Large);
