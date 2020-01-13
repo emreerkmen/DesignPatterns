@@ -48,7 +48,7 @@ namespace DesignPatterns.CreationalPatterns.Builder
 
     class DemoParameter
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             var ms = new MailService();
             ms.SendEmail(email => email.From("foo@bar.com")
