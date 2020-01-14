@@ -51,7 +51,7 @@ namespace DesignPatterns.CreationalPatterns.Factory
 
     class DemoBadFactory 
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Point point = new Point(123.04, 123.04);
         }
