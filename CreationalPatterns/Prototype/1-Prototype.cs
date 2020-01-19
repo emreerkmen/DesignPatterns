@@ -39,7 +39,7 @@ namespace DesignPatterns.CreationalPatterns.Prototype
     class DemoP
     {
         [Obsolete]
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Person p1 = new Person();
             p1.Age = 42;
