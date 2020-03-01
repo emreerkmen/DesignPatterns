@@ -79,9 +79,9 @@ namespace DesignPatterns.StructuralPatterns.Bridge
         }
     }
 
-    class Program
+    class DemoB
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Client client = new Client();
 
