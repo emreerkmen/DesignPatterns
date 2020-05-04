@@ -107,7 +107,7 @@ namespace DesignPatterns.StructuralPatterns.Flyweight
 
     class DemoFW
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             // The client code usually creates a bunch of pre-populated
             // flyweights in the initialization stage of the application.
